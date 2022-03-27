@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+
 # передача параметров в командной строке
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default="ru",
